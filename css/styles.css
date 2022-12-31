@@ -1,0 +1,116 @@
+body {
+    /*  all 4 sides set to 0 pixel
+*/
+    margin:0;
+    text-align: center; 
+    /*   assigns in center every elemnent in body that does not have a width assigned */
+    font-family: 'Prosto One', cursive;
+    /*  tries ask browser to first render in verdana, if it cant renders all text in sans serif */
+    color: #eaf6f6;
+    background-color: rgb(70, 46, 46);
+}
+.profilepic {
+    margin-top: 3%;
+    height: 10%;
+    width: 10%;
+}
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+}
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 100px auto;
+}
+hr {
+    border: dotted #000000 6px;   
+    border-bottom: none;
+    width: 4%;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-container {
+    background-color: #809A6F;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container {
+    margin: 20px;
+}
+.bottom-container {
+    background-color: #809A6F;
+    padding: 50px 0 20px;
+}
+.Compgif {
+    height: 10%;
+    width: 10%;
+}
+
+.skill-row {
+    width : 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skillimg1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skillimg2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.skilltext {
+    clear: right;
+}
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3cd934);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3cd934);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3cd934);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3cd934);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3cd934);
+    text-decoration: none;
+  }
+  a {
+    color:#000000;
+    margin: 0 20px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #eaf6f6;
+  }
